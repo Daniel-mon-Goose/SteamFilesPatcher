@@ -1,6 +1,6 @@
 # SteamFilesPatcher v0.9
 
-A simple environment to create .exe patchers for Steam files
+A simple environment to create patchers and optional executables for Steam files
 using PyInstaller.
 
 An example of ***Killing Floor Cyrillic Patcher*** is provided.
@@ -19,8 +19,7 @@ And voila.
 
 ## Patchers extension
 
-For those who are interested in the extension support for the
-project:
+For those who are interested in creating patchers for other Steam products:
 
 ### Install dependencies
 
@@ -83,7 +82,7 @@ You will find your executalbe in the `dist` folder.
 At the moment ***v0.9*** supports changes only in one folder and only similar changes to files
 (which was enough for KF1). 
 
-***v1.0*** is on the way.
+***v1.0*** with more options and flexibility is on the way.
 
 Just kidding.
 
