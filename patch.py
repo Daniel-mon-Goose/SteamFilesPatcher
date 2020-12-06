@@ -49,7 +49,8 @@ def main(cntx: ContextInterface) -> None:
 
     path: str = get_path_to_game_directory(cntx.directories_chain)
     while not os.path.exists(path):
-        print("Error: the correct path to local Steam directory is required.\n")
+        print("Error: the correct path to local Steam directory is required "
+              "or your game is absent from your installed library\n")
         path = get_path_to_game_directory(cntx.directories_chain)
 
     for name in cntx.filenames:
