@@ -13,7 +13,9 @@ KF Game according to the instructions here:
 http://kf-wiki.com/wiki/Help:Cyrillic_language_support:
 * download `dist/patch.exe`;
 * launch the executable;
-* provide the path to your local Steam directory;
+* provide the path to your local Steam directory.
+
+![Scrennshot](docs/kfexe.jpg)
 
 And voila.
 
@@ -41,7 +43,7 @@ pip install keyboard
 
 ### `ContextInterface` class
 
-The patcher works with contexts which should implement `ContextInterface` class ().
+The patcher works with contexts which should implement `ContextInterface` class.
 The module `context` has the `KF1Context` implementation example.
    
 `ContextInterface` provides 3 properties which have to be overridden:
